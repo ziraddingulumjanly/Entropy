@@ -19,13 +19,15 @@ $$
 For this dataset:
 
 $$
-H(X) = - (0.9 \log_2 0.9 + 0.1 \log_2 0.1)
+H(X) = - \left( 0.9 \log_2 0.9 + 0.1 \log_2 0.1 \right)
 $$
+
+Breaking it down:
 
 - \( 0.9 \log_2 0.9 \approx -0.136 \)
 - \( 0.1 \log_2 0.1 \approx -0.332 \)
 
-So, the entropy is:
+So, the total entropy is:
 
 $$
 H(X) \approx 0.468
@@ -50,12 +52,14 @@ The data is less predictable since it is evenly split between two categories. Th
 Again, applying the entropy formula:
 
 $$
-H(X) = - (0.5 \log_2 0.5 + 0.5 \log_2 0.5)
+H(X) = - \left( 0.5 \log_2 0.5 + 0.5 \log_2 0.5 \right)
 $$
+
+Breaking it down:
 
 - \( 0.5 \log_2 0.5 = -0.5 \)
 
-So, the entropy is:
+So, the total entropy is:
 
 $$
 H(X) = 1.0
