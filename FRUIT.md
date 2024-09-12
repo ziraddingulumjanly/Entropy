@@ -24,7 +24,7 @@ $$
 
 Breaking it down:
 
-- \( 0.9 \log_2 0.9 \approx -0.136 \)
+- \left( 0.9 \log_2 0.9 \approx -0.136 \)
 - \( 0.1 \log_2 0.1 \approx -0.332 \)
 
 So, the total entropy is:
